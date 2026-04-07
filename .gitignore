@@ -1,0 +1,54 @@
+cat > .gitignore << 'EOF'
+# Bytecode cache
+__pycache__/
+__pycache__/*
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Outputs 
+outputs/
+*.csv
+*.json
+*.log
+
+# Testing
+.pytest_cache/
+.coverage
+.coverage.*
+.tox/
+.hypothesis/
+.nox/
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS generated
+.DS_Store
+Thumbs.db
+
+# Distribution
+dist/
+build/
+*.egg
+*.egg-info/
+MANIFEST
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# Misc
+*.log
+.env
+EOF
