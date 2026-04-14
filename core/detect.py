@@ -95,3 +95,4 @@ class Detector:
         return { 
         'icmp': {'succ': self.icmp_successes, 'fail': self.icmp_failures},
         'udp': {'succ': self.udp_successes, 'fail': self.udp_failures},}
+    
