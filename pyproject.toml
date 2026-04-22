@@ -4,8 +4,8 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "ploss"
-version = "0.1.0"
-description = "Packet Loss Detector"
+version = "0.2.1"
+description = "Packet Loss Detector and Debugger"
 dependencies = []
 
 [project.scripts]
